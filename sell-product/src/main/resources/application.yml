@@ -1,0 +1,35 @@
+#注册地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+#项目名称
+spring:
+  application:
+    name: product
+#    Redis
+  redis:
+    host: localhost
+    prot: 6379
+  #MySQL配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+#    password: 5201314Yu
+#    url: jdbc:mysql://localhost:3306/db_sell?characterEncoding=utf-8&useSSL=false
+    password: 123456
+    url: jdbc:mysql://192.168.0.101:3306/db_sell?characterEncoding=utf-8&useSSL=false
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
+  #显示SQL语句
+  jpa:
+    show-sql: true
+
+#项目端口
+server:
+  port: 8081
+

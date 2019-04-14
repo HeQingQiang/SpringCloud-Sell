@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud_Sell.iml" filepath="$PROJECT_DIR$/SpringCloud_Sell.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sell-center/sell-center.iml" filepath="$PROJECT_DIR$/sell-center/sell-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sell-order/sell-order.iml" filepath="$PROJECT_DIR$/sell-order/sell-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sell-product/sell-product.iml" filepath="$PROJECT_DIR$/sell-product/sell-product.iml" />
+    </modules>
+  </component>
+</project>
